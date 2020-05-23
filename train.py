@@ -55,3 +55,7 @@ plt.show()
 # save the model
 with open('models/MNIST.dat', 'wb') as f:
     pickle.dump(model, f)
+
+# simple test
+for i in range(10, 21):
+    print(f"Predicted: {model.predict(X_test[i])} | Actual: {y_test[i]}")    
