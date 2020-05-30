@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/' + f_name) }}" height=50% width=50%/>
+    <h1>Predicted Digit: {{ pred }}</h1>
+    <button type="button"><a href="/empty" style="text-decoration: None;">Go Home</a></button>
+</body>
+</html>
