@@ -1,3 +1,6 @@
 numpy
 matplotlib
 tensorflow
+opencv-python
+Flask
+werkzeug
